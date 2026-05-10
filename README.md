@@ -48,30 +48,6 @@ Given a padel match video, the system:
 
 ------------------------------------------------------------
 
-🏗️ Project Structure
-
-padel-analytics/
-│
-├── models/
-│   ├── ball.pt (pretrained Hugging Face model)
-│   └── yolov8m-pose.pt (pretrained model)
-│
-├── output/
-│   ├── annotated.mp4
-│   ├── shots.csv
-│   └── shots.json
-│
-├── input.mp4
-├── main.py
-├── classifier.py
-├── detection.py
-├── visualizer.py
-├── utils.py
-├── requirements.txt
-└── README.md
-
-------------------------------------------------------------
-
 ⚙️ Requirements
 
 ultralytics>=8.0.0
